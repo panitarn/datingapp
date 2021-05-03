@@ -11,5 +11,6 @@ namespace API.Data
 
         // Initiate and map tables in db
         public DbSet<AppUser> Users { get; set; }
+        
     }
 }
